@@ -7,6 +7,8 @@ import XCTest
 
 protocol IndexScreen: BaseApp { }
 
+//All the elements in Index Screen
+
 extension IndexScreen {
     private var storyImage: XCUIElementQuery {
         return app.images.matching(identifier: "index-story-image")

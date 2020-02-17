@@ -7,6 +7,8 @@ import XCTest
 
 protocol FullArticle: BaseApp { }
 
+//All the elements in Full Screen Article
+
 extension FullArticle {
 
     private var afrLink: XCUIElement {

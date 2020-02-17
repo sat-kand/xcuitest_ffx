@@ -10,5 +10,7 @@ protocol BaseApp {
 }
 
 class BaseTest: XCTestCase, IndexScreen, FullArticle {
+
+    //To avoid recreating XCUIApplication every time in the tests.
     let app = XCUIApplication()
 }
